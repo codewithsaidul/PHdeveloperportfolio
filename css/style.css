@@ -149,6 +149,10 @@ img {
 
 /* ================== Main  Related Style ====================== */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* ============== About Section Related Style ============ */
 .about {
@@ -157,4 +161,28 @@ img {
     border-radius: 10px;
     background: #FFF8F3;
 
+}
+
+.about__info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.info__title {
+    margin-bottom: 0;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info__description {
+    margin-top: 5px;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }

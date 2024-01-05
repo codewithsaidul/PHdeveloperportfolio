@@ -1,0 +1,60 @@
+/* ================ Common shared Style ======================== */
+
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.primary__color {
+    color: #FD6E0A;
+}
+
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
+.container {
+    padding-inline: 6rem;
+}
+
+/* =============== Nav Related Style ======================= */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+.nav>.nav__menu>.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav__item {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav .nav__item .nav__link {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}

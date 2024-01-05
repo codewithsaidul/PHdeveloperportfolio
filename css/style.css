@@ -256,7 +256,7 @@ main section {
     margin-top: 50px;
 }
 
-.resume__card{
+.resume__card {
     margin-top: 50px;
 }
 
@@ -280,20 +280,63 @@ main section {
     /* 175% */
 }
 
-.resume__container hr{
+.resume__container hr {
     margin: 30px 0;
 }
 
-.download__cv{
+.download__cv {
     text-align: center;
     margin-top: 50px;
 }
 
 
 /* ================== Footer Related Style ======================== */
-footer{
+footer {
     margin-top: 110px;
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 230px;
+}
+
+.footer__column {
+    width: 50%;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__column .section__title,
+.footer__column .section__description {
+    text-align: left;
+}
+
+
+.footer__column img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    outline: none;
+}
+
+.contact textarea {
+    resize: none;
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
 }
